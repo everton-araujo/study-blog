@@ -1,0 +1,37 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 6rem;
+  border-bottom-left-radius: 5rem;
+  background: #1f1e1e;
+
+  a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+  }
+
+  h1 {
+    color: #FFF;
+    font-weight: bold;
+  }
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+
+  a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+
+    & + a {
+      padding-left: 10px;
+    }
+  }
+
+}
