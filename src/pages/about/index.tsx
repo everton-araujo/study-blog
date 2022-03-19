@@ -6,7 +6,10 @@ export default function About() {
   return (
     <>
       <Header />
-      <h1>About Page</h1>
+      
+      <main className={styles.content}>
+        <h1>About Page</h1>
+      </main>
     </>
   );
 }
